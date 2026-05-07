@@ -1,0 +1,20 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For additional functionality
+openpyxl>=3.1.0  # For Excel file support
+pillow>=10.0.0   # For image handling
+
+# Note: The following packages are required for the original notebook
+# but are included via scikit-learn:
+# - scipy (included with scikit-learn)
+# - numba (optional performance)
